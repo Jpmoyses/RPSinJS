@@ -8,7 +8,7 @@ function getComputerChoice(){
 
 function getHumanChoice(){
     let answer = null;
-
+    /*fixes cancel bug on the prompt*/
     do{
         answer = prompt("Choose between rock, paper and scissors:");
     }while(answer == null);
