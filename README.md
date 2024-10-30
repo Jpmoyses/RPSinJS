@@ -1,1 +1,2 @@
 # RPSinJS
+This project is a game of Rock Paper Scissors made using JavaScript and played through the browser console, made with the purpose of learning the basics of JavaScript functions, loops and variables.
