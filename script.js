@@ -7,7 +7,12 @@ function getComputerChoice(){
 }
 
 function getHumanChoice(){
-    let answer = prompt("Choose between rock, paper and scissors:");
+    let answer = null;
+
+    do{
+        answer = prompt("Choose between rock, paper and scissors:");
+    }while(answer == null);
+
     answer = answer.toLowerCase();
     answer = answer.trim();
     if ((answer === "rock" || answer === "paper" || answer === "scissors") == true){
