@@ -7,9 +7,27 @@
         <link rel="stylesheet" href="style.css">
     </head>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 
-    <body>
+    <body id="body">
+        <h1>Rock Paper Scissors!</h1>
+        <div class="buttons">
+            <button class="btn" id="rock"><img class="images" src="img/rock.png"></button>
+            <button class="btn" id="paper"><img class="images" src="img/paper.png"></button>
+            <button class="btn" id="scissors"><img class="images" src="img/scissors.png"></button>
+        </div>
+        <p id="result" class="resultText">Click one!</p>
+
+        <div class="score genericFlex">
+            <p id="humanScore">0</p>
+            <h2>X</h2>
+            <p id="computerScore">0</p>
+        </div>
+        <div class="buttons">
+            <button class="btn disable" id="rock"><img class="images" src="img/rock.png"></button>
+            <button class="btn disable" id="paper"><img class="images" src="img/paper.png"></button>
+            <button class="btn disable" id="scissors"><img class="images" src="img/scissors.png"></button>
+        </div>
         
     </body>
 </html>
