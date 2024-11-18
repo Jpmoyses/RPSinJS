@@ -1,4 +1,4 @@
-import { animate} from "./node_modules/motion/dist/motion.js"
+import {animate} from "./node_modules/motion/dist/motion.js"
 
 let humanScore = 0;
 let computerScore = 0;
