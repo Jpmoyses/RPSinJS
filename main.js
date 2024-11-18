@@ -1,4 +1,4 @@
-import {animate} from "./node_modules/motion/dist/motion.js"
+import {animate} from "https://cdn.jsdelivr.net/npm/motion@11.11.13/+esm"
 
 let humanScore = 0;
 let computerScore = 0;
