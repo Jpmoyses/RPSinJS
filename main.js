@@ -1,4 +1,4 @@
-import { animate, scroll } from "motion"
+import { animate} from "./node_modules/motion"
 
 let humanScore = 0;
 let computerScore = 0;
