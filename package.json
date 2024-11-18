@@ -1,0 +1,15 @@
+{
+  "name": "rpsinjs",
+  "version": "1.0.0",
+  "description": "This project is a game of Rock Paper Scissors made using JavaScript, made with the purpose of learning the basics of JavaScript functions, loops, variables, and DOM manipulation.",
+  "main": "anim.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "motion": "^11.11.17"
+  }
+}

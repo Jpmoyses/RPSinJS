@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-color: #59D5E0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.genericFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.score{
+    margin: 0px;
+    width: 400px;
+    font-size: 120px;
+    font-family: "Archivo Black";
+}
+
+.resultText{
+    font-family: "Archivo Black";
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+.win{
+    color: #0D7C66;
+}
+.lost{
+    color: #E4003A;
+}
+
+h1{
+    color: #F5DD61;
+    font-family: "Bebas Neue";
+    font-size: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: #F4538A;
+    font-family: "Bebas Neue";
+    font-size: 90px;
+}
+
+p{
+    margin: 0px;
+}
+
+
+.images{
+    height: 150px;
+    width: 150px;
+}
+
+.btn{
+    height: 250px;
+    width: 250px;
+    background-color: #F5DD61;
+    border: 5px dashed #FAA300;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.bgClick{
+    background-color: #F4538A;
+}
+
+.disable{
+    pointer-events: none;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
